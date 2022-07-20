@@ -1,0 +1,35 @@
+ssh root@203.78.147.70
+intern2@#$
+
+
+
+
+
+
+#############################
+#      CWP Installed        #
+#############################
+
+Go to CentOS WebPanel Admin GUI at http://SERVER_IP:2030/
+
+http://203.78.147.70:2030
+SSL: https://203.78.147.70:2031
+---------------------
+Username: root
+Password: ssh server root password
+MySQL root Password: 1O33ZbDcXT6y
+
+#########################################################
+          CentOS Web Panel MailServer Installer
+#########################################################
+SSL Cert name (hostname): localhost
+SSL Cert file location /etc/pki/tls/ private|certs
+#########################################################
+
+Visit for help: www.centos-webpanel.com
+Write down login details and press ENTER for server reboot!
+Loaded plugins: fastestmirror
+Cleaning repos: base cwp epel extras mariadb updates
+Cleaning up list of fastest mirrors
+Please reboot the server!
+Reboot command: shutdown -r now
