@@ -47,8 +47,6 @@ ol {
 	padding: 25px 0;
 }
 .btn {
-	/* height: 60px; */
-	/* width: 275px; */
 	background-color: #02b159;
 	color: #fff;
 	display: inline-block;
@@ -197,7 +195,6 @@ ol {
 		opacity: 1;
 	}
 }
-
 /*About css end */
 
 /*Quote css start */
@@ -217,6 +214,28 @@ ol {
 	padding-bottom: 80px;
 }
 /*Quote css end */
-/*Banner css end */
 
-/*Banner css end */
+/*Service css start */
+#service,
+#package {
+	background-color: #fafafc;
+}
+/*Service css end */
+
+/*Package css start */
+#package {
+	padding-bottom: 80px;
+}
+#package p {
+	padding: 27px 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+.icon {
+	padding-left: 0 !important;
+	padding: 20px 0;
+}
+.icon img {
+	height: 38px;
+}
+/*Package css end */
