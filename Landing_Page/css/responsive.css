@@ -1,0 +1,74 @@
+@media (min-width: 1300px) {
+	#banner .container {
+		max-width: 1280px;
+	}
+}
+@media (max-width: 767px) {
+	#banner {
+		padding: 18px 28px;
+	}
+	.banner_text h1 {
+		font-size: 36px;
+		line-height: 40px;
+		word-spacing: -6px;
+		width: 240px;
+		margin: auto;
+	}
+	.banner_text {
+		text-align: center;
+		justify-content: center;
+	}
+	.banner_style {
+		padding: 40px 38px 35px;
+		border-radius: 10px 10px 0 0;
+	}
+	.section_head h3 {
+		font-size: 18px;
+		line-height: 28px;
+		padding: 20px 0;
+	}
+	.banner_text h4 {
+		font-size: 19px;
+		line-height: 28px;
+	}
+	.banner_img {
+		text-align: center;
+	}
+	.link_style {
+		border-radius: 0 0 10px 10px;
+		padding: 120px 75px 0;
+	}
+	.banner_button {
+		width: 100%;
+	}
+	.github {
+		/* background-color: #d9dbe1; */
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.email {
+		padding-left: 22%;
+		padding-right: 22%;
+	}
+	.link_style {
+		padding: 55px 55px 55px;
+	}
+	.btn {
+		width: 100%;
+	}
+	.banner_button {
+		padding-bottom: 0;
+	}
+	.money_back {
+		padding: 40px 0 0;
+	}
+}
+@media (max-width: 300px) {
+	.banner_text h1 {
+		width: 100%;
+	}
+	.banner_img img {
+		width: 100px;
+		height: 100px;
+	}
+}
