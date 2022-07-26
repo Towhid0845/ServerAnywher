@@ -1,9 +1,37 @@
 @media (min-width: 1300px) {
-	#banner .container {
-		max-width: 1280px;
+	#banner .container,
+	.container-sm {
+		/* max-width: 1280px; */
+		max-width: 100%;
+	}
+}
+/* @media (min-width: 576px) {
+	.container,
+	.container-sm {
+		max-width: 100%;
+	}
+} */
+@media (max-width: 300px) {
+	.banner_text h1 {
+		width: 100%;
+	}
+	.banner_img img {
+		width: 100px;
+		height: 100px;
 	}
 }
 @media (max-width: 767px) {
+	.section_head h3 {
+		font-size: 18px;
+		line-height: 28px;
+		padding: 20px 0;
+		text-align: center;
+	}
+	.section_head h2 {
+		padding-top: 48px;
+		word-spacing: -3px;
+		text-align: center;
+	}
 	#banner {
 		padding: 18px 28px;
 	}
@@ -22,11 +50,7 @@
 		padding: 40px 38px 35px;
 		border-radius: 10px 10px 0 0;
 	}
-	.section_head h3 {
-		font-size: 18px;
-		line-height: 28px;
-		padding: 20px 0;
-	}
+
 	.banner_text h4 {
 		font-size: 19px;
 		line-height: 28px;
@@ -62,13 +86,53 @@
 	.money_back {
 		padding: 40px 0 0;
 	}
-}
-@media (max-width: 300px) {
-	.banner_text h1 {
-		width: 100%;
+	/* end of banner */
+
+	.linode {
+		padding-top: 0 !important;
 	}
-	.banner_img img {
-		width: 100px;
-		height: 100px;
+	.two_btn {
+		/* margin: 15px 0 65px; */
+		width: 90%;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 65px;
+	}
+	.quote_text h1 {
+		font-size: 31px;
+		line-height: 36px;
+		padding: 80px 0 40px;
+		word-spacing: -2px;
+	}
+	.quote_text p {
+		font-size: 18px;
+		padding-bottom: 50px;
+	}
+	/* end of quote */
+	.review_text {
+		text-align: center;
+	}
+	.batch img {
+		display: none;
+	}
+	.reviewer img {
+		padding: 0 0 50px !important;
+	}
+	/* end of review */
+
+	/* end of package */
+	.map img {
+		display: none;
+	}
+	/* end of market */
+	#account img {
+		display: none;
+	}
+	.account_text {
+		/* background-color: #ffffff; */
+		border-radius: 8px;
+	}
+	.account_text p {
+		padding-bottom: 20px;
 	}
 }

@@ -157,6 +157,9 @@ ol {
 .money_back {
 	padding: 30px 0;
 }
+.money_back span {
+	color: #808080;
+}
 /*Banner css end */
 
 /*About css start */
@@ -185,6 +188,7 @@ ol {
 	background-color: #2cb35a;
 	transition: width 0.8s ease;
 	animation: progress 3.5s ease-in-out forwards;
+	border-radius: 5px;
 }
 .title {
 	opacity: 0;
